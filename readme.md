@@ -1,5 +1,8 @@
 # Exemples de menus de langues faciles avec processwire
 
+toujours à destination des utilisateurs français de processwire pour qui il n'y a pas grand-chose sur le web...\
+**partout j'ai considéré que la langue par défaut était le français mais bien sûr, c'est adaptable à n'importe quelle autre langue par défaut**
+
 ## menu page à page
 
 **menu_langues_pageapage.php**\
