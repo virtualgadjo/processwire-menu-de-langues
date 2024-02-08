@@ -41,3 +41,5 @@ en plus, elle pourra servir ailleurs que juste dans le menu de langue
 
 ***seul petit "problème"***\
 Moins dynamique, il vous faudra enrichir la function si vous ajoutez de nouvelles langues à moins de faire un énorme switch avec toutes les langues qu'un client peut avoir envie d'ajouter sachant qu'un switch n'envoie pas d'erreur si un iso n'existe pas sur le site, il se contente de continuer sa route jusqu'à tomber sur le bon
+
+A vous de jouer poue générer un switch ou équivalent à partir des "$languages" ou un champ repeater accessible au client, pote ou autre pour qui vous faites le site sans avoir à aller remettre les doigts dans un template :)
