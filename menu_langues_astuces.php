@@ -45,7 +45,7 @@ foreach($languages as $language)
 		$url = $page->localUrl($language);
 		$local_title = $language->getLanguageValue($language->name, 'title');
 
-		echo '<option value="' . $url . '"' . $selected . '>' . $local_title . "</option>\n";
+		echo '<option value="' . $url . '"' . $selected . '>' . $local_titlegit . "</option>\n";
 	}
 	?>
 

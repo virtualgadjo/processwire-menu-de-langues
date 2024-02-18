@@ -34,4 +34,4 @@ dans le cas d'un site qui utilise des langues avec des alphabets, syllabaires ou
 à vous de reconnaître la langue en question dans les onglets au-dessus de chaque champ
 
 **2** récupérer le nom de la langue dans la langue en question\
-
+j'ai utilisé $local_title avec un underscore pour bien distinguer la variable des variables de procewwire écrites en camelCase, faites $localTitle si vous préférez
