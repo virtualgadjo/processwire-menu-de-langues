@@ -8,11 +8,11 @@ foreach($languages as $language)
 	$iso = $language->name == 'default' ? 'fr' : $language->name;
 	if($language->id != $user->language->id)
 	{
-		echo '<a hreflang="' . $iso . '" href="' . $url . '" title="' . $local_title . '">' . lang_title($iso) . '</a>' . "\n";
+		echo '<a hreflang="' . $iso . '" href="' . $url . '" title="' . $local_title . '">' . $local_title . '</a>' . "\n";
 	}
 	else
 	{
-		echo '<span>' . lang_title($iso) . '</span>' . "\n";
+		echo '<span>' . $local_title . '</span>' . "\n";
 	}
 }
 
@@ -25,11 +25,11 @@ foreach($languages as $language)
 	$iso = $language->name == 'default' ? 'fr' : $language->name;
 	if($language->id != $user->language->id)
 	{
-		echo '<a hreflang="' . $iso . '" href="' . $url . '" title="' . $local_title . '">' . lang_title($iso) . '</a>' . "\n";
+		echo '<a hreflang="' . $iso . '" href="' . $url . '" title="' . $local_title . '">' . $local_title . '</a>' . "\n";
 	}
 	else
 	{
-		echo '<span>' . lang_title($iso) . '</span>' . "\n";
+		echo '<span>' . $local_title . '</span>' . "\n";
 	}
 }
 ?>
